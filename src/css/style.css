@@ -1,9 +1,14 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header_navigation {
+a {
+    color: black;
+}
+
+.header-navigation {
     background-color: #b4b4b4;
 }
 
@@ -11,5 +16,39 @@
     padding: 10px 0px;
     display: flex;
     justify-content: center;
+}
+
+.about-product__wrapper {
+    padding: 10px;
+}
+
+.about-product__navigation {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.about-product_navigation-menu:hover {
+    background-color: #1c69d4;
+    color: aliceblue;
+}
+
+
+.about-product_navigation-menu {
+    display: flex;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    height: 100px;
     align-items: center;
+    border: 1px solid #b4b4b4;
+    border-bottom: none;
+}
+
+.about-product_navigation-menu:last-child{
+    border: 1px solid #b4b4b4;
+}
+
+.about-product__info-block {
+    width: 70%;
 }
