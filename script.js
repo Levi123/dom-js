@@ -52,6 +52,7 @@ function generateInformationAboutModel(event){
 
             mainInfoBlock.append(mainImage);
             mainImage.classList.add('about-product__main-image');
+            mainImage.alt = `bmw${value.id}`
             mainImage.src = value.images;
         }
     })
